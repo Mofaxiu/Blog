@@ -7,7 +7,7 @@
 
 <script lang="ts" setup>
 import * as echarts from 'echarts';
-import {  onMounted } from 'vue'
+import { onMounted } from 'vue'
 import { useCharts } from '../../../../store/echarts'
 const charts = useCharts()
 

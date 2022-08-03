@@ -1,5 +1,5 @@
  <template>
-    <!-- 头像和个人菜单按钮 -->
+        <!-- 头像和个人菜单按钮 -->
     <loginPerson />
     <div class="common-layout">
         <el-container>
@@ -11,7 +11,6 @@
                         Vue3 + Typescript + Element-plus + VueRouter + Pinia
                     </h1>
                 </transition>
-
             </el-header>
             <el-container>
                 <el-aside width="200px">

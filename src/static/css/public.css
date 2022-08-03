@@ -4,6 +4,10 @@
     padding: 0
 }
 
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 html,
 body,
 #app {
@@ -55,5 +59,6 @@ body {
     background-color: #fff;
     font: 16px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
     color: #666;
-
+    width: 100vw;
+    padding-right: calc(100vw - 100%);
 }

@@ -12,6 +12,7 @@
 </template>
 
 <script lang="ts" setup>
+
 import loginFromVue from '../../components/loginFrom.vue'
 </script>
 

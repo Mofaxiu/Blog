@@ -1,7 +1,9 @@
 <template>
     <div class="fix">
-        <el-image style="width: 100px; height: 100px" :src="url" fit="cover" alt="个人中心" :preview-src-list="[url]"
-            :initial-index="3">
+        <el-image style="width: 100px; height: 100px" :src="imgUrl" fit="cover" alt="个人中心"
+            :preview-src-list="[imgUrl]" :z-index="100000" loading="eager"
+            :preview-teleported="true"
+            >
         </el-image>
         <el-button type="warning" class="btn" round @click="toPerson">魔法秀</el-button>
 
@@ -21,6 +23,10 @@ const username = (msg: string, index: string) => {
     let result = toRaw(index)
     user.username = (result as any).username
 }
+
+const imgUrl = new URL(`../static/img/mofaxiu.jpg`, import.meta.url).href;
+
+
 
 PubSub.unsubscribe('person')
 PubSub.subscribe('person', username)  //拿到登录信息
@@ -55,6 +61,7 @@ const toPerson = () => {
 }
 
 .el-image-viewer__img {
-    height: 80%;
+    height: 70%;
 }
+
 </style>

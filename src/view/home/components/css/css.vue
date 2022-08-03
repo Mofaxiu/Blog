@@ -10,7 +10,7 @@
         </div>
         <!-- //折叠卡片 -->
         <div class="demo-collapse">
-            <el-collapse>
+            <el-collapse >
                 <el-collapse-item title="Code">
                     <el-card>
                         <div class="code" v-html="div">
@@ -142,6 +142,7 @@ const div = '<div class="codes" style=" "><P style="white-space: pre">  .animate
 
 .demo-collapse {
     margin-top: 250px;
+    width: 98%;
 }
 
 .code {
