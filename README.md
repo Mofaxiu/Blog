@@ -1,16 +1,14 @@
-# Vue 3 + TypeScript + Vite
-
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+# 魔法秀博客介绍
+## 技术栈
+1. Vue3 + Typescript + Element-plus + VueRouter + Pinia
+2. 包含的一些其他依赖库，axios，echarts, animate.css , sakurajs，mockjs等。
+## 包含模块
+1. css模块
+2. js模块
+3. vue模块
+4. vueRouter模块
+5. pinia模块
+6. 浏览器相关
+## 涵盖功能
+### 包含常用api属性，以及api底层原理等，以最直接的方式，展示常见且重点的前端知识点。
+### 当前项目持续更新中，已完成css动画的封装，图形化展示等。

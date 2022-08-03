@@ -16,8 +16,8 @@
             <el-container>
                 <el-aside width="200px">
                     <el-menu active-text-color="#ffd04b" background-color="#545c64" class="el-menu-vertical-demo"
-                        :default-active="router.currentRoute.value.path" text-color="#fff" :router="true" :unique-opened="true"
-                        textColor="white">
+                        :default-active="router.currentRoute.value.path" text-color="#fff" :router="true"
+                        :unique-opened="true" textColor="white">
                         <!-- 一级菜单 -->
                         <el-sub-menu v-for="(item, index) in store.menu" :index="index + ''" :key="index">
                             <template #title>
@@ -88,7 +88,8 @@ h1 {
 .common-layout {
     height: 100%;
 }
-.el-main{
+
+.el-main {
     position: relative;
     overflow: hidden;
 }
